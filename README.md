@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Music School App
 
-## Getting Started
+Welcome to my first Next.js project! This is a static app for a music school, built using Next.js and styled with Tailwind CSS. The website utilizes the Aceternity UI library, which leverages Framer Motion for animations. The website contains three routes/pages: Home, Courses, and Contact.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Overview](#overview)
+- [Demo](#demo)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Resources](#resources)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is a static website for a music school, designed to provide information about the school, the courses offered, and contact details. The website is built using Next.js for server-side rendering and routing, styled with Tailwind CSS for responsive design, and enhanced with animations using the Aceternity UI library and Framer Motion.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Demo
 
-## Learn More
+Check out the live demo of the project: [Music School Website](https://your-vercel-url.com)
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Home Page**: Welcoming page with an overview of the music school.
+- **Courses Page**: Detailed information about the courses offered by the music school.
+- **Contact Page**: Contact form and details for getting in touch with the music school.
+- **Animations**: Smooth animations powered by Aceternity UI and Framer Motion.
+- **Responsive Design**: Fully responsive layout using Tailwind CSS.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Tech Stack
 
-## Deploy on Vercel
+<p>
+    <img src="https://github.com/danielcranney/profileme-dev/blob/main/public/icons/skills/nextjs-colored-dark.svg" width="50" height="50" alt="NextJS" />
+    <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-original.svg" width="50" height="50" alt="Tailwind CSS" />
+    <img src="https://camo.githubusercontent.com/3bcd317876dc122d3055613c7f5450134050d0c5a8683807c6f2e8e2178737b0/68747470733a2f2f6672616d657275736572636f6e74656e742e636f6d2f696d616765732f34386861395a52396f5a51475136675a38595566456c50335430412e706e67" width="50" height="50" alt="Framer Motion" />
+    <img src="https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=128&q=75" width="50" height="50" alt="Aceternity" />
+</p>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Frontend Framework**: Next.js
+- **Styling**: Tailwind CSS
+- **Animations**: Aceternity UI (with Framer Motion)
+- **Hosting**: Vercel (or any other platform of your choice)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Resources
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/guides/nextjs)
+- [Aceternity UI Documentation](https://ui.aceternity.com/)
