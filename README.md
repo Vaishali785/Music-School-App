@@ -14,9 +14,9 @@ Welcome to my first Next.js project! This is a static app for a music school, bu
 
 This project is a static website for a music school, designed to provide information about the school, the courses offered, and contact details. The website is built using Next.js for server-side rendering and routing, styled with Tailwind CSS for responsive design, and enhanced with animations using the Aceternity UI library and Framer Motion.
 
-<!-- ## Demo
+## Demo
 
-Check out the live demo of the project: [Music School Website](https://your-vercel-url.com) -->
+Check out the live demo of the project: [Music School Website](https://nextlevelmusic.netlify.app/)
 
 ## Features
 
@@ -38,7 +38,7 @@ Check out the live demo of the project: [Music School Website](https://your-verc
 - **Frontend Framework**: Next.js
 - **Styling**: Tailwind CSS
 - **Animations**: Aceternity UI (with Framer Motion)
-<!-- - **Hosting**: Vercel (or any other platform of your choice) -->
+- **Hosting**: Netlify
 
 ## Resources
 
