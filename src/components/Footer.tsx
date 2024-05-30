@@ -1,10 +1,10 @@
 function Footer() {
 	return (
 		<footer className="bg-black text-gray-400 py-12">
-			<div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
+			<div className="max-w-6xl text-center sm:text-left mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
 				<div>
 					<h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
-					<p className="mb-4">
+					<p className="mb-4 text-justify sm:text-left">
 						Music School is a premier institution dedicated to teaching the art
 						and science of music. We nurture talent from the ground up,
 						fostering a vibrant community of musicians.
@@ -12,7 +12,7 @@ function Footer() {
 				</div>
 				<div>
 					<h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
-					<ul>
+					<ul className="flex justify-around sm:block ">
 						<li>
 							<a
 								href="#"
@@ -49,7 +49,7 @@ function Footer() {
 				</div>
 				<div>
 					<h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
-					<div className="flex space-x-4">
+					<div className="flex space-x-4 justify-center sm:justify-start">
 						<a
 							href="#"
 							className="hover:text-white transition-colors duration-300"

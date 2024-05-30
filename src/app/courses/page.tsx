@@ -15,7 +15,7 @@ function page() {
 	return (
 		<div>
 			<div className="min-h-screen bg-black py-12 pt-36">
-				<h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
+				<h1 className="text-4xl md:text-7xl text-center font-sans font-bold mb-8 text-white">
 					All courses ({courseData.courses.length})
 				</h1>
 				<div className="flex flex-wrap justify-center">
